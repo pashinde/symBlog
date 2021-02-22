@@ -128,10 +128,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+
     <state x="622" y="143" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1613980046652">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="622" y="143" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1613980046652" />
+
     <state x="492" y="182" width="673" height="561" key="NewPhpClassDialog" timestamp="1613032104014">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
