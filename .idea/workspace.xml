@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d627b34-c593-4258-b2c6-fc831acd1f4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/RegistrationControllerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Login/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Login/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/RegistrationController/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/RegistrationController/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,7 @@
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
     </include_path>
   </component>
   <component name="ProjectId" id="1o3oFcHzgB0PtT78SPAcEROGnPz" />
@@ -87,8 +94,17 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../currency-converter" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,6 +125,13 @@
       <workItem from="1613972983105" duration="1136000" />
       <workItem from="1613980031516" duration="2339000" />
       <workItem from="1613988037019" duration="6423000" />
+      <workItem from="1614160965037" duration="3535000" />
+      <workItem from="1614171166381" duration="2672000" />
+      <workItem from="1614174290074" duration="3896000" />
+      <workItem from="1614178320283" duration="269000" />
+      <workItem from="1614231726028" duration="2302000" />
+      <workItem from="1614235500848" duration="5617000" />
+      <workItem from="1614246371416" duration="1674000" />
     </task>
     <servers />
   </component>
@@ -128,19 +151,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-
     <state x="622" y="143" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1613980046652">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="622" y="143" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1613980046652" />
-
+    <state x="341" y="27" width="966" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614005048350">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="341" y="27" width="966" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1614005048350" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1614248914322">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1614248914322" />
     <state x="492" y="182" width="673" height="561" key="NewPhpClassDialog" timestamp="1613032104014">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="492" y="182" width="673" height="561" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1613032104014" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1613993631994">
+    <state x="497" y="208" key="run.anything.popup" timestamp="1614175314936">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1613993631994" />
+    <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1614175314936" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1614178036367">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1614178036367" />
   </component>
 </project>

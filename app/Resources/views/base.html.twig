@@ -3,12 +3,27 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <style>
+                div#page-heading {
+                    margin-bottom: 1em;
+                }
+                h2#post-title {
+                    font-style: italic;
+                    margin-bottom: 0.5em;
+                }
+                p#post-description {
+                    font-size: 1.2em;
+                    text-indent: 1em;
+                }
+            </style>
+        {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
+            {% include '::header.html.twig' %}
             {% block body %}{% endblock %}
             {% block javascripts %}{% endblock %}
         </div>

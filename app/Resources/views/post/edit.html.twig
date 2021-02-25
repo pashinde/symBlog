@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div id="page-heading" class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h1>Post edit</h1>
+                </div>
+            </div>
+            <a class="brn btn-lg btn-info pull-right" href="{{ path('post_index') }}">Back to the list</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {{ form_start(edit_form) }}
+            {{ form_widget(edit_form) }}
+            <input type="submit" class="btn btn-success btn-lg pull-right" value="Edit" />
+            {{ form_end(edit_form) }}
+        </div>
+    </div>
+{% endblock %}

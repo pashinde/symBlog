@@ -8,7 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
 
-class RegistrationControllerController extends Controller
+class RegistrationController extends Controller
 {
     /**
      * @Route("/register", name="user_registration")
