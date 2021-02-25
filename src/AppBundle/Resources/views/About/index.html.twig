@@ -1,0 +1,20 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:About:index{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div id="page-heading" class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h1>About</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="{{ asset('images/index.jpeg') }}" style="width:100%;"/>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div id="page-heading" class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h1>Post</h1>
+                </div>
+            </div>
+            <a class="brn btn-lg btn-info pull-right" href="{{ path('post_index') }}">Back to the list</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <a class="brn btn-lg btn-warning pull-right" href="{{ path('post_edit', { 'id': post.id }) }}">Edit</a>
+            <h2 id="post-title">{{ post.title }}</h2>
+            <p id="post-description">
+                {{ post.description }}
+            </p>
+
+            {{ form_start(delete_form) }}
+            <input type="submit" class="btn btn-danger pull-right" value="Delete Post">
+            {{ form_end(delete_form) }}
+        </div>
+    </div>
+{% endblock %}
